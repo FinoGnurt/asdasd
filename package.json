@@ -1,9 +1,12 @@
 {
+  "homepage": "https://FinoGnurt.github.io/asdasd/",
   "name": "nerdcard",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite --host",
     "build": "vite build",
     "lint": "eslint .",
